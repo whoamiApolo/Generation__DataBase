@@ -1,9 +1,9 @@
 -- Gen
 
-create database servico_rh;
+CREATE DATABASE servico_rh;
 use servico_rh;
 
-create table tb_colaboradores
+CREATE TABLE tb_colaboradores
 (
 colaboradorID int auto_increment,
 sobrenome varchar(255) not null,
@@ -29,8 +29,8 @@ values ("PO", "Po Test", "23456789-1", "Po", 2301);
 
 -- delete from tb_colaboradores where colaboradorID = 3;
 
-select * from tb_colaboradores where salario > 2000;
+SELECT * from tb_colaboradores where salario > 2000;
 
-select * from tb_colaboradores where salario < 2000;
+SELECT * from tb_colaboradores where salario < 2000;
 
-select * from tb_colaboradores;
+SELECT * from tb_colaboradores;
