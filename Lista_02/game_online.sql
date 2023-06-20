@@ -45,7 +45,7 @@ select nome, poder_defesa from tb_personagens where poder_defesa > 1000 and pode
 select nome, poder_ataque, poder_defesa from tb_personagens where nome like 'c%';
 
 select * from tb_personagens 
-inner join tb_classes on tb_classes.id = tb_personagens.classe_id;
+inner join tb_classes on tb_classes.id = tb_pertb_categoriastb_produtostb_usuariostb_usuariostb_usuariostb_usuariostb_categoriassonagens.classe_id;
 
 select * from tb_personagens 
 inner join tb_classes on tb_classes.id = tb_personagens.classe_id
